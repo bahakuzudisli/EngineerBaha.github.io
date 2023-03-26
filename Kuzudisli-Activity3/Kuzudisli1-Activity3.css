@@ -1,0 +1,74 @@
+.header {
+	align-items: center;
+	justify-content: flex-start;
+	margin-left: 50px;
+	display: flex;
+	
+
+  }
+  
+  
+  .title {
+	margin-left: 200px;
+	
+
+}
+  
+  /* Content */
+  .content {
+	justify-content: center;
+	text-align: justify;
+	margin-left: 350px;
+	margin-right: 350px;
+	word-spacing: 3px;
+	float: left;
+
+  }
+  
+  .image img {
+	max-width: 250px;
+	margin-bottom: 0px;
+	float: left;
+}
+
+.logo {
+	margin-left: 280px;
+	max-width: 250px;
+	float: left;
+
+} 
+  
+  .main {
+/*	width: 70%;
+	margin-right: 20px;*/
+  }
+  
+  /* Advertisement */
+  .advertisement {
+	width: 100px;
+	height: 150px;
+	border: 2px solid black;
+	background-color: gray;
+	color: white;
+	margin: 20px;
+	margin-right: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	  
+	  
+  }
+  
+  /* Validation Links */
+  .validation-links {
+	text-align: center;
+	margin:20px;
+  }
+  /* Footer */
+  .head {
+	text-align: center;
+	margin-top: 400px;
+  }
+  
+  
