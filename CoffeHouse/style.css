@@ -1,0 +1,99 @@
+/* Global styles */
+
+/*
+body class for font family and padding and margin
+*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/*
+imghome for edit home image, there is just one so i used id
+*/
+#imghome{
+	width: 80%;
+	height: 80%;
+	border-radius: 30px;
+	margin: 30px;
+}
+/*
+make the image sizes same
+*/
+#imgsize{
+	width: 350px;
+	height: 350px;
+	border-radius: 30px;
+	margin: 30px;
+}
+/*
+for div placement
+*/
+.kutu{
+	display: flex;
+	align-items: top;
+	
+	
+}
+
+/*
+for home page texts placemnets
+*/
+
+#yazi2{
+	padding-left: 10%;
+}
+.yazi{
+	padding-top: 30px;
+	padding-left: 50px;
+}
+/*
+making center and make more beatiful look, makes texts white
+*/
+main {
+	width: 80%;
+	margin: 0 auto;
+	color: #FFF;
+	
+}
+/*
+header is for navigation bar and main title, used different color, texts are white
+*/
+header {
+	background-color: #695336;
+	
+	color: #FFF;
+	padding: 1em;
+}
+/*
+background color of website, used body tag
+*/
+#backcolor{
+	background-color: #D2B48C;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+/*
+	footer for become at bottom 
+*/
+footer {
+	background-color: #695336;
+	bottom: 0;
+	color: #FFF;
+	padding: 1em;
+	text-align: center;
+	
+}
