@@ -1,0 +1,14 @@
+.form-label {
+    float: left;
+    width: 250px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+br {
+    clear: left;
+}
