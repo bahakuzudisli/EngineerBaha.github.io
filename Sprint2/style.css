@@ -1,0 +1,223 @@
+/* Global styles */
+
+body {
+    background-image: url("images/coffe-background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+}
+
+
+#imghome{
+	width: 80%;
+	height: 80%;
+	border-radius: 30px;
+	margin: 30px;
+}
+
+#imgsize{
+	width: 350px;
+	height: 350px;
+	border-radius: 30px;
+	margin: 30px;
+}
+
+.kutu{
+	display: flex;
+	align-items: top;
+
+}
+
+#yazi2{
+	width: 100%;
+    padding-left: 0;
+}
+
+.yazi{
+	padding-top: 30px;
+	padding-left: 50px;
+}
+
+
+
+header {
+	background-color: transparent;
+	color: #FFF;
+	padding: 1em;
+	font-size: 1.5em; /* Yazı boyutunu arttırır */
+	font-family: 'Times New Roman', Times, serif; /* Font'u değiştirir */
+}
+
+main {
+	margin-top: 500px; 
+	width: 80%;
+	margin:0 auto;
+	color: #FFF;
+	background-color: transparent;
+}
+
+footer {
+	background-color: transparent;
+	bottom: 0;
+	color: #FFF;
+	padding: 1em;
+	text-align: center;
+}
+
+
+nav li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+nav a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* New styles for the header */
+.container2 {
+	display: flex;
+	align-items: center; 
+	justify-content: space-around; 
+  }
+  
+  .transparent-image {
+	width: 200px; /* Increase the size as you want */
+	height: 200px; /* Increase the size as you want */
+  }
+  
+  .text-and-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .rounded-button {
+	border-radius: 25px; 
+	background-color: rgba(186, 113, 5, 0.251);
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px; /* Add space between the text and the button */
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container .logo img {
+    max-width: 150px; /* You can change this to suit your needs */
+    height: auto;
+    position: absolute;
+	margin-top: -70px; /* veya istediğiniz başka bir değer */
+}
+
+.container {
+    position: relative;
+}
+
+.map {
+    display: block;
+    width: 100%; /* Haritanın genişliğini belirler. İsteğe bağlı olarak bu değeri değiştirebilirsiniz. */
+    height: 500px; /* Haritanın yüksekliğini belirler. İsteğe bağlı olarak bu değeri değiştirebilirsiniz. */
+    padding-left: 450px;
+}
+
+.custom-div {
+    background-color: #654321; /* Kahverengi rengi */
+    border-radius: 20px; /* Yuvarlak köşeler */
+    width: 350px; /* Div genişliği */
+    display: flex; /* İçeriklerin yan yana olmasını sağlar */
+    padding: 20px; /* İç boşluk */
+    color: white; /* Metnin rengi */
+    overflow: hidden; /* Dışarı taşan içeriği gizler */
+	margin: 20px; 
+}
+
+.custom-div-image {
+    width: 100px; /* Resim genişliği */
+    height: 100px; /* Resim yüksekliği */
+    margin-right: 20px; /* Resim ve metin arasındaki boşluk */
+    flex-shrink: 0; /* Flex özelliğini devre dışı bırakır */
+    display: inline-block; /* Link özelliğini düzeltir */
+}
+
+.custom-div-image img {
+    width: 100%; /* Resim genişliği */
+    height: 100%; /* Resim yüksekliği */
+    object-fit: cover; /* Resmin boyutunu orantılı bir şekilde sığdırır */
+}
+
+.custom-div-text h2 {
+    font-size: 1.5em; /* Başlık boyutu */
+}
+
+.custom-div-text p {
+    font-size: 1em; /* Alt metin boyutu */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.form-label {
+    float: left;
+    width: 250px;
+    text-align: right;
+    margin-right: 10px;
+	color: #FFF;
+	font-size: 20px; /* adjusted font size */
+}
+
+.form-input {
+    margin-bottom: 10px;
+	width: 250px;
+	height: 30px;
+	font-size: 16px; /* added font size */
+}
+
+textarea#message {
+    height: 100px; /* added specific height for message textarea */
+}
+
+br {
+    clear: left;
+}
+.button{
+	margin-left: 17%;
+}
+
+.fotorama{
+	margin-top: 5%;
+	margin-inline-start: 20%;
+	width: 60%;
+	height: 45%;
+}
