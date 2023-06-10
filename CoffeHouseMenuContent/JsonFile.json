@@ -1,31 +1,31 @@
 [
     {
-      "image": "images/americano2.png",
+      "image": "CoffeHouseMenuContent/images/americano2.png",
       "price": "$6.50",
       "description": "Espresso With Brazil Cores"
     },
     {
-      "image": "images/espresso2.png",
+      "image": "CoffeHouseMenuContent/images/espresso2.png",
       "price": "$6.50",
       "description": "Espresso With Brazil Cores"
     },
     {
-      "image": "images/cappucino2.png",
+      "image": "CoffeHouseMenuContent/images/cappucino2.png",
       "price": "$6.50",
       "description": "Espresso With Brazil Cores"
     },
     {
-      "image": "images/product1.png",
+      "image": "CoffeHouseMenuContent/images/product1.png",
       "price": "$6.50",
       "description": "Espresso With Brazil Cores"
     },
     {
-      "image": "images/product2.png",
+      "image": "CoffeHouseMenuContent/images/product2.png",
       "price": "$6.50",
       "description": "Espresso With Brazil Cores"
     },
     {
-      "image": "images/product3.png",
+      "image": "CoffeHouseMenuContent/images/product3.png",
       "price": "$6.50",
       "description": "Espresso With Brazil Cores"
     }
