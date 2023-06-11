@@ -2,7 +2,7 @@ FEATURE AND REQUESTS:
 I used fotorama and google map as widget. Fotorama let me iterate between pictures and google map shows the location of coffe house. 
 I used validate,fancybox ve Sticky as pluins. validate controls the textfields are or aren't correct, fancybox make pictures bigger(to see) and
 Sticky make navigation line stick on the head of web page. 
-I used 2 AJAX, one of them is Json (external file), I put external file to github but in the different file path. The other one is extracting 
+I used 2 AJAX, one of them is Json (external file), I put external file to same path with project, in the CoffeHouseMenuComponent file. The other one is extracting 
 weather datas wit api to see how is weather on the coffe house. Customers can see 7 days of weather.
 
 FUTURE OF THE WEBSİTE AND USIBILITY:
