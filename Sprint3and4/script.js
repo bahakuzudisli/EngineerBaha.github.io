@@ -70,49 +70,7 @@ $('#loadData').on('click', function() {
     }
 });
 
-/*
-let dataLoaded = false;
 
-$('#loadData').on('click', function() {
-    if (!dataLoaded) {
-        dataLoaded = true;
-
-        $.getJSON("https://raw.githubusercontent.com/EngineerBaha/EngineerBaha.github.io/main/CoffeHouseMenuContent/JsonFile.json", function(data) {
-            var items = [];
-            var count = 0;
-            $.each(data, function(key, val) {
-                items.push('<div class="custom-div">'
-                + '<a class="custom-div-image" data-fancybox="gallery" href="' + val.image + '">'
-                + '<img src="' + val.image + '">'
-                + '</a>'
-                + '<div class="custom-div-text">'
-                + '<h2>' + val.price + '</h2>'
-                + '<p>' + val.description + '</p>'
-                + '</div>'
-                + '</div>');
-
-                count += 1;
-
-                if(count % 3 === 0) {
-                    $('<div/>', {
-                        "class": 'kutu',
-                        html: items.join('')
-                    }).appendTo('main');
-                    items = [];
-                }
-            });
-
-            // To handle the remainder items
-            if(items.length) {
-                $('<div/>', {
-                    "class": 'kutu',
-                    html: items.join('')
-                }).appendTo('main');
-            }
-        });
-    }
-});
-*/
 
 //this part taking weather cast for one week. you have to push a button to extract all datas
 document.getElementById('get-weather-btn').addEventListener('click', function() {
@@ -144,6 +102,3 @@ document.getElementById('get-weather-btn').addEventListener('click', function() 
     xhr.send();
   });
   
-
-
- 
