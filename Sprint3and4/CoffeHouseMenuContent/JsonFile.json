@@ -1,0 +1,33 @@
+[
+    {
+      "image": "images/americano2.png",
+      "price": "$6.50",
+      "description": "Espresso With Brazil Cores"
+    },
+    {
+      "image": "images/espresso2.png",
+      "price": "$6.50",
+      "description": "Espresso With Brazil Cores"
+    },
+    {
+      "image": "images/cappucino2.png",
+      "price": "$6.50",
+      "description": "Espresso With Brazil Cores"
+    },
+    {
+      "image": "images/product1.png",
+      "price": "$6.50",
+      "description": "Espresso With Brazil Cores"
+    },
+    {
+      "image": "images/product2.png",
+      "price": "$6.50",
+      "description": "Espresso With Brazil Cores"
+    },
+    {
+      "image": "images/product3.png",
+      "price": "$6.50",
+      "description": "Espresso With Brazil Cores"
+    }
+  ]
+  
