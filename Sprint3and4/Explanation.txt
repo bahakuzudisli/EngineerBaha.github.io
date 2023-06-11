@@ -1,0 +1,16 @@
+FEATURE AND REQUESTS:
+I used fotorama and google map as widget. Fotorama let me iterate between pictures and google map shows the location of coffe house. 
+I used validate,fancybox ve Sticky as pluins. validate controls the textfields are or aren't correct, fancybox make pictures bigger(to see) and
+Sticky make navigation line stick on the head of web page. 
+I used 2 AJAX, one of them is Json (external file), I put external file to github but in the different file path. The other one is extracting 
+weather datas wit api to see how is weather on the coffe house. Customers can see 7 days of weather.
+
+FUTURE OF THE WEBSİTE AND USIBILITY:
+Mostly coffe lovers are gonna use this web site. The main goal is brighten customers about coffe house, where is the coffe house? what are the products?
+How is the weather next few days in there? I have a question, how can i interact with them? Customer can take all the answer for these question.
+I wanna make Customers happy. They are gonna see all information about my coffe house in coffe prices to weather stituation. They are gonna see
+whole menu, location, weather for 7 days, specials and prices. They can interact of the owner as well.
+Finally I wanna add some feature to my web site. It is the ordering online. I have to learn some other things for that but for now it is ok.
+
+URL: https://engineerbaha.github.io/Sprint3and4/index.html
+
