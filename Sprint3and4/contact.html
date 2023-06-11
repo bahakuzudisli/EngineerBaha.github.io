@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Coffee House - Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <script src="jquery-ui/external/jquery/jquery.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+</head>
+<!--arka plan-->
+<body id="backcolor">
+	<!-- header tag-->
+	<header id="yazi2">
+		<div class="container">
+			<div class="logo">
+				<img src="images/coffee-logo3.jpg" alt="Logo">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- genel açıklama ve mail-->
+	<main>
+		<h2>Contact Us</h2>
+		<p>Feel free to contact us with any questions or suggestions you may have:</p>
+		<ul>
+			<li>Phone: 505-9876</li>
+			<!-- used a link to mail-->
+			<li>Send a mail to us: <a href="mailto:baha71434@gmail.com">baha71434@gmail.com</a></li>
+			<li>Address: 123 Ata St, Ankara TR</li>
+		</ul>
+	</main>
+
+	
+		<!--validate kullandığım alan, burda inptlar ve submit butonu var. validate ile kutuların dolu olup olmadığını kontrol ediyorum vs.-->
+	<form id="form">
+		<label class="form-label" for="Name">Name</label>
+		<input class="form-input" type="text" id="Name" name="Name" required><br>
+		<label class="form-label" for="email">Email Address</label>
+		<input class="form-input" type="email" id="email" name="email" placeholder="Enter a valid email address" required><br>
+		<label class="form-label" for="Subject">Subject</label>
+		<input class="form-input" type="text" id="Subject" name="Subject" required><br>
+		<label class="form-label" for="Message">Message</label>
+		<textarea id="message" name="message" class="form-input" required></textarea><br> <!-- removed extra input for Message -->
+		<input class="button" type="submit" id="submit" value="Submit">
+	</form>
+	
+	<script src="script.js"></script>
+
+
+
+</body>
+</html>

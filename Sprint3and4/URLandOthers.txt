@@ -1,0 +1,3 @@
+URL: https://engineerbaha.github.io/Sprint3and4/index.html
+widget: fotorama ve google map
+plugins: validate,fancybox ve Sticky
