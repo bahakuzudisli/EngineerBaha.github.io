@@ -31,7 +31,7 @@ $('#loadData').on('click', function() {
     if (!dataLoaded) {
         dataLoaded = true;
 
-        fetch('JsonFile.json')
+        fetch('CoffeHouseMenuContent/JsonFile.json')
             .then(response => response.json())
             .then(data => {
                 var items = [];
